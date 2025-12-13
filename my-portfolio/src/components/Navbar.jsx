@@ -66,6 +66,7 @@ const Navbar = () => {
                     {open ? "Close✖" : "Menu☰"}
                 </button>
             </nav>
+            
             {/* Mobile Menu (After open=true*/}
             {open && (
                 <ul className="md:hidden flex flex-col gap-5 items-end max-w-min bg-black/60 text-white font-semibold p-4 rounded-xl shadow-lg fixed top-16 right-5 ">

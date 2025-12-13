@@ -21,6 +21,7 @@ function App() {
       <div id="projects"><Projects/></div>
       <div id="contact-me"><Contact/></div>
 
+
       <Footer/>
     </div>
   )
