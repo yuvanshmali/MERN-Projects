@@ -3,7 +3,7 @@ import React from 'react';
 const projectss = [
   {
     id: 1,
-    title: "MERN Beginner Projects",
+    title: "MERN Projects",
     description: "A full-stack blog platform",
     tech: ["MongoDB", "Express", "React", "Node.js"],
     github: "https://github.com/yuvanshmali/MERN-Projects",
