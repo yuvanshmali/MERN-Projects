@@ -1,0 +1,56 @@
+Layer:	            Packages:
+
+Server	            express
+Database	        mongoose
+Auth	            jsonwebtoken, bcrypt
+Security	        validator
+Payments	        stripe
+File Upload	        multer
+Config	            dotenv
+Dev Tool	        nodemon
+Data Parsing	    body-parser
+Frontend Access	    cors
+
+
+
+
+what is ES6 ?
+Modern JavaScript (ES6+) syntax and concepts that are commonly used while writing Express applications.
+
+1. async / await
+MOST IMPORTANT ES6+ FEATURE IN EXPRESS
+
+2. Arrow Functions () => {}
+Used in routes, middleware, controllers
+
+3. Destructuring
+Extract values from objects easily
+
+4. Template Literals ` `
+Used for strings and dynamic responses
+
+5. Default Parameters
+Used in middleware and utility functions
+
+6. Spread Operator ...
+Used with objects and arrays
+
+7. Rest Operator ...
+Collect remaining values
+
+8. import / export (ES Modules)
+Needs: "type": "module"
+
+9. Optional Chaining ?.
+Prevents runtime crashes
+
+
+What is multer?
+Multer = middleware for handling file uploads in Express
+
+Browser sends form-data (not JSON), Normal Express cannot read files, Multer reads the file, saves it, and gives info to your backend
+Think like this: Express understands text, Multer teaches Express how to understand files
+
+You need Multer when your frontend sends:
+Images, PDFs, Videos, Any file via <input type="file" />
+

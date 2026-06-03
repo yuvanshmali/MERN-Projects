@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+    font-family: OutFit;
+}
+/* 
+body {
+    background-color: #fcfcfc;
+} */
+ hr{
+    border:none;
+    background-color: #a9a9a9;
+    height: 1px;
+ }
